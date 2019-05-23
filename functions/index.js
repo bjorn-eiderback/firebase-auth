@@ -17,7 +17,7 @@ exports.addAdminRole = functions.https.onCall((data, context) => {
   });
 });
 
-//To deply to firebase
+//To deploy to firebase
 // Init
 //> firebase init functions
 //
