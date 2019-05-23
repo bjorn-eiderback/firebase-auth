@@ -20,3 +20,10 @@ exports.addAdminRole = functions.https.onCall((data, context) => {
     return err;
   });
 });
+
+//To deploy to firebase
+// Init
+//> firebase init functions
+//
+// Deploy
+//> firebase deploy --only functions
