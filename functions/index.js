@@ -27,3 +27,6 @@ exports.addAdminRole = functions.https.onCall((data, context) => {
 //
 // Deploy
 //> firebase deploy --only functions
+
+// New deployment, again:
+// > firebase deploy --only functions
